@@ -45,6 +45,13 @@ PDF.js is built into version 19+ of Firefox, however, one extension is still ava
 Chrome, go to `Tools > Extension` and load the (unpackaged) extension from the
 directory `build/chromium`.
 
+### Including via a CDN
+
+To use PDF.js via a CDN you need to include this file from [jsDelivr](https://www.jsdelivr.com/package/npm/pdfjs-dist):
+```
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@1/build/pdf.min.js"></script>
+```
+
 ## Getting the Code
 
 To get a local copy of the current code, clone it using git:
